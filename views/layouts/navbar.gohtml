@@ -1,0 +1,28 @@
+{{define "navbar"}}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="https://xms-production-f.squarecdn.com/xms/assets/logos/square-22d4f700b4c53e104f17cab67cc34b9c27f99f2ea877069c6b2773d821a30004.svg" width="66" height="22" class="d-inline-block align-top" alt="">
+    Store
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/customers">Customers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Catalog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/oauth/square/connect">Login</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+{{end}}
